@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Rowdies:wght@700&family=Teko:wght@500;600&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+    text-align: center;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 12px;
+    
+}
+.image_container {
+    max-width: 100%;
+    height: 300px; /* Set a fixed height for the container */
+    overflow: hidden;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+.container{
+    background: palevioletred;
+    width: 90vb;
+    height: 87vh;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 4px;
+
+}
+.heading{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Teko', sans-serif;
+font-size: large;
+}
