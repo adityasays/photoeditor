@@ -46,3 +46,33 @@ font-family: 'Rowdies', cursive;
 font-family: 'Teko', sans-serif;
 font-size: large;
 }
+.dropdown_container{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-top: 8px;
+    height: 150px;
+}
+.dropdown{
+    width: 300px;
+    height: 100px;
+}
+.dropdown input{
+    
+    top: 0px;
+    text-align: center;
+    left: 0px;
+    width: 65%;
+    height: 35%;
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background:wheat;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+.opt text{
+    text-align: center;
+}
