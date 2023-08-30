@@ -48,7 +48,7 @@ font-size: large;
 }
 .dropdown_container{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     text-align: left;
     margin-top: 8px;
     height: 150px;
@@ -58,6 +58,7 @@ font-size: large;
     margin-top: 2px;
     position: relative;
     height: 100px;
+    
 }
 .dropdown input{
     position: relative;
@@ -66,11 +67,13 @@ font-size: large;
     left: 0px;
     width: 65%;
     height: 35%;
+    
     cursor: pointer;
     padding: 12px 20px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
     background:wheat;
-    border: none;
+    border: 2px solid black;
+
     border-radius: 10px;
     outline: none;
     
@@ -110,7 +113,7 @@ font-size: large;
     display: none;
     top: 40px;
     width: 65%;
-    box-shadow: rgb(17, 18, 19) 0px 20px 30px -10px;
+   
     overflow: hidden;
     border-radius: 10px;
     background:wheat;
@@ -120,8 +123,17 @@ font-size: large;
 .dropdown .opt div{
     padding: 7px 10px;
     cursor: pointer;
+    font-size: medium;
+
     
 }
+
+.textbox::placeholder {
+    color: #000000; 
+    font-size: small;
+    font-style: italic; 
+  }
+  
 
 .dropdown .opt div:hover{
     
@@ -132,4 +144,32 @@ font-size: large;
   background-color: #f0f0f0; 
   border: 1px solid #ccc; 
     
+}
+.chooseimage{
+    width: 100px;
+    margin-top: 1px;
+    position: relative;
+    height: 33px;
+    
+    border-radius: 10px;
+    background: wheat;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+}
+.saveimage{
+    width: 100px;
+    margin-top: 1px;
+    position: relative;
+    height: 33px;
+    background: wheat;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+
 }
