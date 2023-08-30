@@ -14,13 +14,15 @@
         </div>
         <div class="dropdown_container">
             <div class="dropdown">
-                <input type="text" class="textbox" placeholder="Select effect" readonLy>
-                <div class="opt">
-                    <div class="brightness">Brightness</div>
-                    <div class="saturation">Saturation</div>
-                    <div class="invert">Inversion</div>
-                    <div class="greyscale">Greyscale</div>
+                <input type="text" class="textbox" placeholder="Select effect" id="dropdownInput" readonLy>
+
+                <div class="opt" id="dropdownOptions">
+                    <div class="brightness" onclick="show('Brightness')">Brightness</div>
+                    <div class="saturation" onclick="show('Saturation')">Saturation</div>
+                    <div class="invert" onclick="show('Inversion')">Inversion</div>
+                    <div class="greyscale" onclick="show('Greyscale')">Greyscale</div>
                 </div>
+                
             </div>
 
         </div>
@@ -28,6 +30,21 @@
 
         </div>
     </div>
+    <script> function show(anything)
+        {
+           document.querySelector(".textbox").value=anything;
+        }
+        let dropdown = document.querySelector('.dropdown');
+
+dropdown.onclick = function () {
+  if (dropdown.classList.contains('active')) {
+    dropdown.classList.remove('active');
+  } else {
+    dropdown.classList.add('active');
+  }
+}
+
+        </script>
 	<script src="logic.js"></script>
   </body>
 </html>
