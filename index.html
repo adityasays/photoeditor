@@ -21,11 +21,12 @@
                 <input type="text" class="textbox" placeholder="Select effect" id="dropdownInput" readonLy>
 
                 <div class="opt" id="dropdownOptions">
-                    <div class="brightness" onclick="show('Brightness')">Brightness</div>
-                    <div class="saturation" onclick="show('Saturation')">Saturation</div>
-                    <div class="invert" onclick="show('Inversion')">Inversion</div>
-                    <div class="greyscale" onclick="show('Greyscale')">Greyscale</div>
+                    <div id="brightness" class="option brightness" data-effect="Brightness">Brightness</div>
+                    <div id="saturation" class="option saturation" data-effect="Saturation">Saturation</div>
+                    <div id="inversion" class="option inversion" data-effect="Inversion">Inversion</div>
+                    <div id="greyscale" class="option greyscale" data-effect="Greyscale">Greyscale</div>
                 </div>
+                
                 
             </div>
             <input type="file" class="file-input" accept="image/*"hidden>
@@ -40,7 +41,7 @@
                
             </div>
             
-                <input type="range" value="100" min="0" max="200">
+                <input type="range" value="100" min="0" max="200" class="filter">
 
             </div>
             
